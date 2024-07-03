@@ -1,5 +1,9 @@
 function App() {
-  return <></>;
+  return (
+    <>
+      <Clock />
+    </>
+  );
 }
 
 export default App;
