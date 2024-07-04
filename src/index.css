@@ -1,0 +1,59 @@
+body{
+    background-image: url("assets/wallpaper.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.clock{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+    padding: 10px;
+    box-shadow: 5px 5px 50px white;
+}
+
+.mainn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.controls{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.controls{
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    width: 50vw;
+    height: 05vh;
+    background-color: rgba(0, 0, 255, 0.299);
+}
+.controls button{
+    border-radius: 5px;
+    width: 5em;
+    height: 2em;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    }
+.controls button:nth-child(1):hover{
+        background-color: rgb(0, 255, 0);
+}
+.controls button:nth-child(2):hover{
+    background-color: red;
+}
+.controls button:nth-child(3):hover{
+    background-color: rgb(217, 0, 255);
+}

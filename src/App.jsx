@@ -1,7 +1,9 @@
+import DigiClock from "./DigiClock";
+
 function App() {
   return (
     <>
-      <Clock />
+      <DigiClock />
     </>
   );
 }
